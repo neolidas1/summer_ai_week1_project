@@ -14,5 +14,28 @@ def manageAccountMenu():
     print("2. Add a friend")
     print("3. View all my friends")
     print("4. View all my messages")
-    print("5. <- Go back ")
+    print("5. Block a friend.")
+    print("6. <- Go back ")
     return input("Please Choose a number: ")
+
+def editDetails():
+    editName = input("Enter your new name: ")
+    editAge = input("Enter your new age: ")
+    editBio = input("What is your favorite animal? Favorite movie? Favorite book? Put down anything interesting about yourself down here! ")
+    return editName, editAge, editBio 
+
+def editName():
+    print("")
+    return input("Enter your new name: ")
+
+def editAge():
+    print("")
+    return input("Enter your new age: ")
+
+def editBio():
+    print("")
+    return input("Enter interesting facts! ")
+
+def addFriend():
+    print("")
+    return input("Please enter your friend's name")
