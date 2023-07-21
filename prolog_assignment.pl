@@ -29,4 +29,6 @@ place(thayer_street, [yans, bajas, andreas, chinatown, kabob_n_curry, mikes, eas
 place(fox_point, [pizza_marvin, dolores, tallulahs, bees, al_forno])
 place(wayland, [watermelon_grille, red_stripe, pasta_beach, haruki, heng, lims])
 
-
+/* place(wayland, X).  */ 
+/* place(fox_point, X).  */ 
+/* place(thayer_street, X).  */ 
